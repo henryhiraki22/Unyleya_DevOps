@@ -14,9 +14,9 @@ redis:
     enabled: false
 
 image:
-  repository: ecratividade4henry.azurecr.io/unlyeya-atividade-4/ecratividade42
+  repository: mcr.microsoft.com/azuredocs/azure-vote-front
   pullPolicy: IfNotPresent
-  tag: "v1"
+  # tag: "v1"
 
 imagePullSecrets: []
 nameOverride: ""
